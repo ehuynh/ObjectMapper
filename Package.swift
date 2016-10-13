@@ -1,5 +1,6 @@
 import PackageDescription
 
 let package = Package(
-    name: "ObjectMapper"
+    name: "ObjectMapper",
+    exclude: ["Tests"]
 )
